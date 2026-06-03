@@ -1,17 +1,51 @@
-# my_app
+# NovaMind — Futuristic AI Assistant App
 
-A new Flutter project.
+A multilingual AI-powered Flutter app for Android that brings multiple intelligent assistants into one clean, dark-themed interface — built for everyday users who need smart help in their own language.
 
-## Getting Started
+## Demo
 
-This project is a starting point for a Flutter application.
+![NovaMind App](demo.png)
 
-A few resources to get you started if this is your first Flutter project:
+## Problem
+Most AI apps are English-only and built for tech-savvy users. NovaMind is built for everyday Indian users — supporting multiple languages with a simple, accessible interface anyone can use.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Features
+| Assistant | What it does |
+|---|---|
+| AI Chat | Ask anything, get instant AI responses |
+| Languages | Switch to any language — AI responds accordingly |
+| Shopping | Smart buying advice and product suggestions |
+| Navigation | Find places and get location help |
+| Study | Academic help and explanations |
+| Finance | Money management and financial guidance |
+| Recipe | Cooking help and recipe suggestions |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+- Flutter (Dart)
+- Firebase
+- OpenRouter API
+- Multilingual AI chat
+- Custom dark UI theme
+
+## How to Run
+```bash
+flutter pub get
+flutter run
+```
+
+> Requires an OpenRouter API key in your environment config.
+
+## Screenshots
+![Home Screen](demo.png)
+
+## What Makes It Different
+- Multilingual support — users can interact in their own language
+- Multiple specialized AI assistants in one app
+- Built for non-technical Indian users
+- Clean dark UI optimized for mobile
+
+## Future Plans
+- Voice input and output
+- Offline mode for basic queries
+- Regional language expansion (Odia, Bhojpuri, Tamil)
+- Publish on Google Play Store
